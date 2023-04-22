@@ -96,7 +96,7 @@ while running:
                             screen.blit(D_d_original,(480,500))
                             screen.blit(d_d_original,(660,500))
                             pygame.display.flip()
-                            time.sleep(0.01)
+                            #time.sleep(0.005)
                         elif gene=='dd':
                             result["dd"]+=1
                             screen.fill('#66CCFF')
@@ -106,7 +106,7 @@ while running:
                             screen.blit(D_d_original,(480,500))
                             screen.blit(d_d,(660,500))
                             pygame.display.flip()
-                            time.sleep(0.01)
+                            #time.sleep(0.005)
                         else:
                             result["Dd"]+=1
                             screen.fill('#66CCFF')
@@ -116,7 +116,7 @@ while running:
                             screen.blit(D_d,(480,500))
                             screen.blit(d_d_original,(660,500))
                             pygame.display.flip()
-                            time.sleep(0.01)
+                            #time.sleep(0.005)
             if bpressed==True:
                 screen.fill('#66CCFF')
                 banner=gamefont.render_to(screen,(540,100),"分离定律模拟",size=36)
